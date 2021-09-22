@@ -1,0 +1,32 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="[Local] Step-Function-3" type="aws.lambda" factoryName="Local">
+    <option name="credentialProviderId" value="profile:default" />
+    <option name="regionId" value="us-east-2" />
+    <option name="debugHost" value="localhost" />
+    <option name="environmentVariables">
+      <map />
+    </option>
+    <option name="handler" value="index.handler" />
+    <option name="image" value="false" />
+    <option name="logicalFunctionName" />
+    <option name="memorySize" value="128" />
+    <option name="pathMappings">
+      <list />
+    </option>
+    <option name="platform" />
+    <option name="runtime" value="nodejs14.x" />
+    <option name="templateFile" />
+    <option name="timeout" value="300" />
+    <option name="useTemplate" value="false" />
+    <option name="input" value="{&#10;    &quot;key&quot;: &quot;step&quot;,&#10;    &quot;value&quot;: &quot;3&quot;,&#10;    &quot;name&quot;: &quot;step-function-3&quot;&#10;}" />
+    <option name="inputIsFile" value="false" />
+    <sam>
+      <option name="additionalBuildArgs" value="" />
+      <option name="additionalLocalArgs" value="" />
+      <option name="buildInContainer" value="false" />
+      <option name="dockerNetwork" value="" />
+      <option name="skipImagePull" value="false" />
+    </sam>
+    <method v="2" />
+  </configuration>
+</component>
